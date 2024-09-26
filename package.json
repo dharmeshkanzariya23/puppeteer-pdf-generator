@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer-pdf-generator",
+  "version": "1.0.0",
+  "description": "A simple pdf generator app",
+  "main": "pdf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharmeshkanzariya23/sample-poc-master.git"
+  },
+  "author": "Rodolfo Marcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dharmeshkanzariya23/sample-poc-master/issues"
+  },
+  "homepage": "https://github.com/dharmeshkanzariya23/sample-poc-master#readme",
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "puppeteer": "^1.11.0"
+  }
+}

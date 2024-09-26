@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{reportTitle}}</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+        line-height: 1.6;
+      }
+      header {
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-size: 24px;
+      }
+      .content {
+        margin-bottom: 40px;
+      }
+      .section-title {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+      }
+      .customer-info,
+      .visit-summary {
+        margin-bottom: 20px;
+      }
+      p {
+        margin: 5px 0;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+      footer {
+        text-align: center;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        font-size: 12px;
+      }
+      .page-break {
+        page-break-before: always;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{reportTitle}}</h1>
+    </header>
+
+    <div class="content">
+      <section class="customer-info">
+        <div class="section-title">Customer Information</div>
+        <p><strong>Name:</strong> {{customer.name}}</p>
+        <p><strong>Date of Birth:</strong> {{customer.dob}}</p>
+        <p><strong>Address:</strong> {{customer.address}}</p>
+        <p><strong>Phone Number:</strong> {{customer.phone}}</p>
+      </section>
+
+      <section class="visit-summary">
+        <div class="section-title">Visit Summary</div>
+        <p><strong>Date:</strong> {{visit.date}}</p>
+        <p>{{visit.overview}}</p>
+
+        <div class="section-title">Key Findings:</div>
+        <ul>
+          {{#each visit.keyFindings}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+
+        <div class="section-title">Preferred Styles:</div>
+        <ul>
+          {{#each visit.preferredStyles}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+
+        <div class="section-title">Recommendations:</div>
+        <ul>
+          {{#each visit.recommendations}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+      </section>
+
+      <section class="visit-summary">
+        <div class="section-title">Visit Summary</div>
+        <p>{{visit.overview}}</p>
+
+        <div class="section-title">Detailed Table:</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Description</th>
+              <th>Type</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each visit.tableData}}
+            <tr>
+              <td>{{this.item}}</td>
+              <td>{{this.description}}</td>
+              <td>{{this.type}}</td>
+              <td>{{this.amount}}</td>
+            </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </section>
+
+      <div class="page-break"></div>
+
+      <section class="additional-info">
+        <div class="section-title">Additional Information</div>
+        <p><strong>Compositions:</strong> {{visit.compositions}}</p>
+        <p><strong>Coverages:</strong> {{visit.coverages}}</p>
+        <p><strong>Documents:</strong> {{visit.document}}</p>
+        <p><strong>Encounters:</strong> {{visit.encounters}}</p>
+        <p><strong>Fashion History:</strong> {{visit.fashionHistory}}</p>
+      </section>
+    </div>
+
+    <footer>
+      <p>Prepared by Fashion Boutique for Customer Consultation</p>
+    </footer>
+  </body>
+</html>

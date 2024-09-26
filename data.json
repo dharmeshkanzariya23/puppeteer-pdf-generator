@@ -1,0 +1,195 @@
+{
+  "reportTitle": "Fashion Store Visit Summary Report [CQ - Aug 2024]",
+  "customer": {
+    "name": "Jane Smith",
+    "dob": "02/14/1990",
+    "address": "5678 Fashion Blvd., City, State 12345",
+    "phone": "777-777-7777",
+    "email": "janesmith@example.com",
+    "emergencyContact": {
+      "name": "John Smith",
+      "relationship": "Partner",
+      "phone": "666-666-6666"
+    }
+  },
+  "visit": {
+    "date": "August 23, 2024",
+    "overview": "Customer visited the store to explore the latest fall collection and inquire about custom tailoring services.",
+    "keyFindings": [
+      "Customer showed interest in high-end designer wear, especially evening gowns.",
+      "Customer is planning a wedding and looking for bridal and bridesmaids' dresses.",
+      "Inquired about fabric options for custom-made suits.",
+      "Requested matching accessories (shoes, handbags) to complement evening wear."
+    ],
+    "preferredStyles": [
+      "Classic evening gowns",
+      "Custom bridal wear",
+      "Tailored suits"
+    ],
+    "recommendations": [
+      "Present the customer with designer evening gowns for upcoming events.",
+      "Discuss custom tailoring options for bridal and bridesmaids' dresses.",
+      "Offer a consultation for a custom-made suit, including fabric selection and fitting schedule.",
+      "Showcase matching accessories for the selected outfits (shoes, handbags, jewelry).",
+      "Schedule a follow-up appointment for further consultation and fittings."
+    ],
+    "compositions": "Details of the customer’s style preferences, including material, fit, and color choices for each outfit.",
+    "coverages": "Information about potential discounts or offers, including loyalty rewards and upcoming sales events.",
+    "document": "Purchase documents, order forms for custom designs, and customer preference sheets.",
+    "encounters": "Interactions with sales representatives and in-store stylists, including details of personalized fashion advice and consultation on custom tailoring.",
+    "fashionHistory": "Past purchases, including evening wear and casual outfits, and customer preferences in brands and designers.",
+    "notes": {
+      "stylistNotes": "Customer prefers a classic, elegant look with a modern twist, particularly for evening and bridal wear.",
+      "followUpPlan": "Customer to be contacted within one week for a consultation on bridal wear designs and fabric options."
+    },
+    "tableData": [
+      {
+        "item": "Kids T-Shirt",
+        "description": "Cotton T-shirt with fun prints",
+        "type": "Male",
+        "amount": "$15"
+      },
+      {
+        "item": "Girls Dress",
+        "description": "Summer floral dress",
+        "type": "Female",
+        "amount": "$25"
+      },
+      {
+        "item": "Boys Shorts",
+        "description": "Denim shorts for casual wear",
+        "type": "Male",
+        "amount": "$18"
+      },
+      {
+        "item": "Baby Onesie",
+        "description": "Soft cotton onesie for infants",
+        "type": "Unisex",
+        "amount": "$12"
+      },
+      {
+        "item": "Girls Jacket",
+        "description": "Lightweight jacket for cool days",
+        "type": "Female",
+        "amount": "$30"
+      },
+      {
+        "item": "Boys Hoodie",
+        "description": "Warm fleece hoodie",
+        "type": "Male",
+        "amount": "$22"
+      },
+      {
+        "item": "Kids Swimwear",
+        "description": "Colorful swim trunks",
+        "type": "Male",
+        "amount": "$20"
+      },
+      {
+        "item": "Girls Leggings",
+        "description": "Comfortable leggings for active girls",
+        "type": "Female",
+        "amount": "$15"
+      },
+      {
+        "item": "Boys Sneakers",
+        "description": "Durable sneakers for everyday wear",
+        "type": "Male",
+        "amount": "$40"
+      },
+      {
+        "item": "Girls Sandals",
+        "description": "Cute sandals for summer",
+        "type": "Female",
+        "amount": "$25"
+      },
+      {
+        "item": "Boys Cap",
+        "description": "Baseball cap with adjustable strap",
+        "type": "Male",
+        "amount": "$10"
+      },
+      {
+        "item": "Girls Headband",
+        "description": "Fashionable headband with bows",
+        "type": "Female",
+        "amount": "$5"
+      },
+      {
+        "item": "Kids Pajamas",
+        "description": "Cozy pajamas set with cartoon designs",
+        "type": "Unisex",
+        "amount": "$20"
+      },
+      {
+        "item": "Boys Formal Shirt",
+        "description": "Dress shirt for special occasions",
+        "type": "Male",
+        "amount": "$30"
+      },
+      {
+        "item": "Girls Skirt",
+        "description": "Pleated skirt for school",
+        "type": "Female",
+        "amount": "$20"
+      },
+      {
+        "item": "Kids Backpack",
+        "description": "Spacious backpack with fun characters",
+        "type": "Unisex",
+        "amount": "$35"
+      },
+      {
+        "item": "Boys Sports Jersey",
+        "description": "Team jersey for sports activities",
+        "type": "Male",
+        "amount": "$28"
+      },
+      {
+        "item": "Girls Cardigan",
+        "description": "Stylish cardigan for layering",
+        "type": "Female",
+        "amount": "$27"
+      },
+      {
+        "item": "Kids Winter Coat",
+        "description": "Insulated coat for cold weather",
+        "type": "Unisex",
+        "amount": "$50"
+      },
+      {
+        "item": "Boys Belt",
+        "description": "Adjustable leather belt",
+        "type": "Male",
+        "amount": "$15"
+      },
+      {
+        "item": "Girls Accessories Set",
+        "description": "Includes necklace and bracelets",
+        "type": "Female",
+        "amount": "$18"
+      }
+    ]
+  },
+  "additionalInfo": {
+    "paymentMethod": {
+      "provider": "Visa",
+      "cardNumber": "**** **** **** 1234",
+      "expiryDate": "12/2026"
+    },
+    "shoppingPreferences": {
+      "onlineShopping": "Occasionally shops online but prefers in-store experiences.",
+      "loyaltyProgramMember": "Yes",
+      "budgetRange": "$500 - $5,000 per outfit"
+    },
+    "styleGoals": [
+      "Find the perfect wedding gown.",
+      "Create a custom suit for upcoming formal events.",
+      "Explore matching accessories for evening wear."
+    ],
+    "customerEducation": {
+      "fabricCare": "Guidance on caring for high-end fabrics and proper storage for custom-made outfits.",
+      "tailoringProcess": "Overview of the custom tailoring process, including measurements and fabric selection."
+    }
+  }
+}
